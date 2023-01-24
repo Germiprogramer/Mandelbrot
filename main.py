@@ -11,8 +11,8 @@ def mandelbrot(re, im, max_iter):
             return i
     return max_iter
 
-columnas = 5000
-filas = 5000
+columnas = 3000
+filas = 3000
 
 result = np.zeros([columnas, filas])
 
